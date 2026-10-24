@@ -22,7 +22,6 @@ This project demonstrates how to automate the creation and management of AWS Sec
 - AWS Security Groups – Virtual firewall rules
 - Git & GitHub – Version control and project documentation
 
-🏗️ Architecture
 ## 🏗️ Architecture Diagram
 
 ![AWS Security Group Management Architecture](./Architecture.jpg)
