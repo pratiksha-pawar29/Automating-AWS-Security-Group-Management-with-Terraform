@@ -23,6 +23,9 @@ This project demonstrates how to automate the creation and management of AWS Sec
 - Git & GitHub – Version control and project documentation
 
 🏗️ Architecture
+## 🏗️ Architecture Diagram
+
+![AWS Security Group Management Architecture](./Architecture.jpg)
 
 The project uses Terraform to define and manage AWS Security Group rules within an AWS VPC.
 
