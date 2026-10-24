@@ -28,10 +28,6 @@ This project demonstrates how to automate the creation and management of AWS Sec
 
 The project uses Terraform to define and manage AWS Security Group rules within an AWS VPC.
 
-## Architecture Diagram
-
-![AWS Security Group Management Architecture](./Architecture.png)
-
 ## Security Group Rules
 
 | Direction | Protocol | Port | Source/Destination |
