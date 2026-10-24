@@ -52,6 +52,20 @@ The project uses Terraform to define and manage AWS Security Group rules within 
      Controlled Network
           Traffic
 
+## Architecture Diagram
+
+![AWS Security Group Management Architecture](./Architecture.png)
+
+## Security Group Rules
+
+| Direction | Protocol | Port | Source/Destination |
+|---|---|---|---|
+| Inbound | TCP | 80 | 0.0.0.0/0 |
+| Inbound | TCP | 443 | 0.0.0.0/0 |
+| Outbound | All | All | 0.0.0.0/0 |
+
+HTTP and HTTPS are public web ports. Restrict access further if your use case requires it.
+
 ⚙️ Implementation Steps
 
 1. Configure AWS credentials with appropriate permissions.
